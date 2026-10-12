@@ -1,7 +1,6 @@
 <?php
-
 namespace Database\Seeders;
-
+$this->call(DemoUserSeeder::class);
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
